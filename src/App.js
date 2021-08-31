@@ -31,7 +31,7 @@ function App() {
 
           console.log("failed in app",err);
         });
-    }, [loggedInMail]);
+    }, [loggedInMail,isTeacher,token]);
 
   useEffect(() => {
   }, [loggedInMail]);
