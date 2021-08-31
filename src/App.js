@@ -18,7 +18,7 @@ function App() {
 
   useEffect(() => {
       axios
-        .get(`http://localhost:4000/api/user/`,{isTeacher},{
+        .get(`http://34.125.110.209/api/user/`,{isTeacher},{
           headers: {
               Authorization: 'Bearer '+ token
           }

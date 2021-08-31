@@ -9,7 +9,7 @@ const ClassRoomDetails = (classRoomId) => {
   const [classRoomData, setData] = useState(null);
   useEffect(() => {
     axios
-      .get(`http://localhost:4000/api/classRoom/${classRoomId}`)
+      .get(`http://34.125.110.209/api/classRoom/${classRoomId}`)
       .then((req, res) => {
         if (res) {
           setData(res);

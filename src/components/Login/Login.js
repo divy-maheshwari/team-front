@@ -27,7 +27,7 @@ const Login = () => {
      data.token=response.tokenId;
     console.log(data)
     axios
-      .post("http://localhost:4000/api/user/api/v1/auth/google", data)
+      .post("http://34.125.110.209/api/user/api/v1/auth/google", data)
       .then((user) => {
         console.log("succesful");
         console.log(user);

@@ -16,7 +16,7 @@ const Main = ({ classData }) => {
   const onSubmitClick = () => {
     axios
       .patch(
-        `http://localhost:4000/api/classRoom/${classData.classRoomId}/announcement`,
+        `http://34.125.110.209/api/classRoom/${classData.classRoomId}/announcement`,
         {
            text:inputValue
         }

@@ -31,7 +31,7 @@ const JoinClass = () => {
     };
     const token = Cookies.get('token');
     axios
-      .patch("http://localhost:4000/api/user/join", data,{
+      .patch("http://34.125.110.209/api/user/join", data,{
         headers: {
           Authorization: 'Bearer '+ token
       }

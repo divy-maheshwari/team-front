@@ -14,7 +14,7 @@ const Form = () => {
 
  const onFormSubmit = () => {
    console.log("yaha aa gya");
-   axios.post("http://localhost:4000/api/classRoom/new",{
+   axios.post("http://34.125.110.209/api/classRoom/new",{
      classRoomId,
      teacherId,
      classRoomName
